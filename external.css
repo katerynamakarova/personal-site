@@ -1,0 +1,58 @@
+body {
+.gradient
+  background: #BC8F8F;
+  background: linear-gradient(to top, #FFEBCD, #BC8F8F);
+  line-height: 30px;}
+
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #556B2F;
+  border-width: 6px;
+  width: 10%;}
+
+h1 {
+  font-family: serif;
+  font-weight: bold;
+  color:#513E3A;
+  font-style:  normal;}
+
+h2{
+  color:#A8226F;}
+
+
+#Scills{
+  font-family: Georgia, serif;
+  font-weight: 600;}
+
+img {
+  width:210px;
+  height: 280px;}
+
+h4{
+  color: black;}
+.main{
+  font-family: cursive;
+  font-weight: 400;}
+.add{
+  font-family: cursive;
+  font-weight: 500;}
+
+ol {
+  type: 2;}
+
+h3 {
+  font-family: Georgia, serif;
+  font-weight: 400;}
+
+#gigt {
+  width:400px;
+  height: 280px;}
+
+#someelem{
+  color: blue;}
+
+.so {
+  color:red;}
+
+a:link { color: #900060;  }
