@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+  </head>
+  <style media="screen">
+  * {
+  margin: 0;
+  padding: 0;
+ }
+
+#navbar{
+  height: 75px;
+  background-image: url('2.jpg');
+  background-size: cover;
+  text-align: right;
+}
+#header{
+  height: 400px;
+  background-image: url('wer.jpg');
+  background-size: cover;
+  font-size:5vw;
+  color: #0a4040;
+  text-align: center;
+}
+#MainSection{
+  flex-direction: column;
+  margin-top: 75px;
+  margin-bottom: 75px;
+  margin-left: 100px;
+  margin-right: 100px;
+  height: 500px;
+  background-color: "";
+}
+#PreFooter{
+  height: 40px;
+  background-color: #115252;
+  color: #daf5f5;
+  text-align: center;
+}
+#footer{
+  height: 100px;
+  background-image: url('3.jpg');
+  background-size: cover;
+  color: #daf5f5;
+  text-align: right;
+  font-size:18px;
+}
+#YellowParagraph{
+  height: 50px;
+  background-color: "";
+  margin-bottom: 50px;
+  text-align: center;
+  font-family: serif;
+  font-size:3vw;
+  color: #5a7575;
+}
+#container{
+   display: flex;
+   justify-content: space-between;
+}
+#OrangeBox1{
+  background-color: "";
+  font-style: oblique;
+  font-size: 17px;
+  color:#176666;
+  max-width:100%;
+  height:auto;"
+}
+img{
+  width: 230px;
+  height: 300px;
+  float:left;
+  margin: 0px 7px 7px 0;
+}
+.push{
+      display: inline;
+    }
+.a-push{
+    outline: none;
+    border-radius: 34px;
+    font-size: 24px;
+    color:#115252;
+    border:none;
+    padding: 5px 15px;
+    text-decoration: none;
+    transition: 0.6s;
+}
+.a-push:hover{
+    outline: none;
+    margin: 12px 12px;
+    border-radius: 34px;
+    color:#daf5f5 ;
+    border: 3px solid #135252;
+    background-color: #799999;
+}
+    </style>
+    <body>
+    <nav id="navbar">
+      <ul>
+          <li class="push"><a class="a-push" href="responsive-flex.html">Home</a></li>
+          <li class="push"><a class="a-push" href="katya.html">About</a></li>
+          <li class="push"><a class="a-push" href="contact.html">Contacts</a></li>
+          <li class="push"><a class="a-push" href="films.html">Films</a></li>
+      </ul>
+    </nav>
+    <header id="header">ABOUT FILMS</header>
+    <section id="MainSection">
+      <p id="YellowParagraph">RECOMENDATIONS</p>
+      <div id="container">
+        <div id="OrangeBox1">
+          <img src="sev.jpg" alt="Seven Pounds" style="max-width:100%;height:auto;">
+            Engineer Tim embarks on journey
+            to atone for the fatal act of his life. During his trip,
+            he meets seven strangers, including the terminally ill
+            Emily, who calls herself a girl with black wings.
+        </div>
+        <div id="OrangeBox1">
+          <img src="lion.jpg" alt="Lion" style="max-width:100%;height:auto;">
+          Based on the true story of Saroo Brierley who,
+          at the age of 5, was separated from his family in
+          India as he fell asleep on a train and woke up 1600
+          kilometers away from home.
+        </div>
+      </div>
+    </section>
+    <div id="PreFooter">Contact number: 234-84-280</div>
+    <footer id="footer">Виконала: Макарова Катерина<br>
+      група БІ-243
+    </footer>
+  </body>
+  </html>
